@@ -1,8 +1,8 @@
-import express from 'express'
-import cors from 'cors'
-import bodyParser from 'body-parser'
+const express = require('express')
+const cors = require('cors')
+const bodyParser = require('body-parser')
 
-import stubData from './data.json'
+const stubData = require('./data.json')
 
 const app = express()
 const port = process.env.PORT || 4040
