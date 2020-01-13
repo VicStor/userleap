@@ -1,6 +1,10 @@
 ## Start application
-run client dev server from /client derectory ```npm start```
-run server from /server derectory ```npm start```
+run client dev server from /client directory ```npm start```
+
+run server from /server directory ```npm start```
+
+## FRs
+https://docs.google.com/document/d/1hx4KGHclCNlZfqCMb8ATGFmyhhlgF0ZI41G85iw7Gio/edit?ts=5e1b9d2b#
 
 ## UI
 https://www.figma.com/file/C8doDUlhtFgwfUpQyelAsW/Web-Surveys---Stormy?node-id=2%3A18
