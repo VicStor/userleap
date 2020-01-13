@@ -1,5 +1,6 @@
 ## Start application
 run client dev server from /client derectory ```npm start```
+
 run server from /server derectory ```npm start```
 
 ## UI
