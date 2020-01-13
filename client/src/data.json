@@ -1,0 +1,91 @@
+{
+  "survey": {
+    "visitorId": 6941884,
+    "intro": "Intro text is here and shares a little conext about the survey.",
+    "questions": [{
+        "id": 548,
+        "props": {
+          "message": "What would make it easier to configure and launch surveys in UserLeap?"
+        },
+        "type": "open"
+      },
+      {
+        "id": 549,
+        "props": {
+          "message": "Which do you like best?",
+          "options": [{
+              "label": "One",
+              "value": "one",
+              "order": 5
+            },
+            {
+              "label": "Two",
+              "value": "two",
+              "order": 3
+            },
+            {
+              "label": "Three",
+              "value": "three",
+              "order": 2
+            },
+            {
+              "label": "Four",
+              "value": "four",
+              "order": 4
+            },
+            {
+              "label": "Five",
+              "value": "five",
+              "order": 1
+            }
+          ]
+        },
+        "type": "multiplechoice"
+      },
+      {
+        "id": 550,
+        "props": {
+          "message": "Which do you like best?",
+          "options": [{
+              "label": "One",
+              "value": "one",
+              "order": 1
+            },
+            {
+              "label": "Two",
+              "value": "two",
+              "order": 2
+            },
+            {
+              "label": "Three",
+              "value": "three",
+              "order": 3
+            },
+            {
+              "label": "Four",
+              "value": "four",
+              "order": 4
+            },
+            {
+              "label": "Five",
+              "value": "five",
+              "order": 5
+            }
+          ]
+        },
+        "type": "multipleselect"
+      },
+      {
+        "id": 551,
+        "props": {
+          "labels": {
+            "left": "Not at all disappointed",
+            "right": "Extremely disappointed"
+          },
+          "message": "How disappointed would you be if you could no longer use UserLeap?"
+        },
+        "type": "likert"
+      }
+    ]
+  }
+}

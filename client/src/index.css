@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fcn {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.frn {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+.fn {
+  flex: none;
+}
+.text-center {
+  text-align: center;
+}
+.answer-button.ant-btn {
+  margin-bottom: 8px;
+  text-align: left;
+}
+.survey-container {
+  width: 400px;
+  margin: auto;
+  padding-top: 40px;
+}
+.survey-intro {
+  text-align: left;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 135%;
+  color: #6C6C6E;
+  margin: 24px 0 33px 0;
+}
+.question-container {
+  min-height: 300px;
+}
+.question-message {
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 130%;
+  color: #262136;
+  margin-bottom: 24px;
+}
+.question-wrapper {
+  padding: 30px;
+  width: 375px;
+  border: 2px solid #F0F0F1;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.question-pagination {
+  text-align: center;
+}
+.question-pagination .ant-pagination-item {
+  width: 7px !important;
+  height: 7px !important;
+  min-width: initial !important;
+  min-height: initial !important;
+  border-radius: 50% !important;
+  border: 1px solid #543EDB !important;
+  box-sizing: border-box !important;
+  background: #fff !important;
+}
+.question-pagination .ant-pagination-item.ant-pagination-item-active {
+  background: #543EDB !important;
+}
